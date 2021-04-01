@@ -57,7 +57,7 @@ For the training and testing dataset, the image data is **8bit RGB** image, and 
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                         *left image*                         |                        *right image*                         |                      *disparity image*                       |
 
-In order to know the origin data, the file name is named from the origin image, "pair1_pair2_index.png". The index is start from 0.
+In order to know the origin data, the file name is named from the origin image, "pair1_pair2_index.png". 
 
 ### Data download
 
@@ -71,6 +71,8 @@ To do list:
 
 - [ ] Method introduction
 - [ ] Result analysis
+- [ ] Evaluation introduction
+- [ ] Evaluation result table
 
 ## Feed Back
 
@@ -78,5 +80,5 @@ To do list:
 
 The dataset is introduced in the ISPRS 2021 congress paper, if you use this dataset, please cite our paper.
 
-If you think you have any problem, contact [Teng Wu](whuwuteng@gmail.com)
+If you think you have any problem, contact [Teng Wu]<whuwuteng@gmail.com>
 
