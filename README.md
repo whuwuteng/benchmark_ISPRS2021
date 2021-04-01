@@ -7,7 +7,7 @@ With the development of machine learning, especially deep learning, these method
 For photogrammetry community, as far as we know, it is not easy to find these training data. We will publish our data as ground truth. The data is produced from original image and LiDAR dataset. To be noticed, the image and LiDAR should be well-registered.
 
 
-### Vaihingen dataset(Aerial data)
+### Vaihingen dataset
 This data set is from [ISPRS 3D reconstruction benchmark](https://www2.isprs.org/commissions/comm2/wg4/benchmark/).
 
 |<img src="/figures/vaihingen_show.png" width="700" alt="Vaihingen dataset training and testing area" />|
@@ -65,6 +65,17 @@ Training data is on [GoogleDrive](https://drive.google.com/file/d/1VigRM7MzarWJQ
 
 Testing data is on [GoogleDrive](https://drive.google.com/file/d/10T15hxiok9WbMWcF-_mLTBRJL-mPC03w/view?usp=sharing). There are *507* stereo pairs for the testing dataset. For the testing data, the ground truth disparity is not provided. 
 
+For deep learning method, a training and valuation list file is also provide, the ratio of training image is *80%*, and the ratio valuation image is *20%* of the training data. The relative directory is the current directory, and only the left image is listed:
+
+```
+10030060_10040082/colored_0/10030060_10040082_0005.png
+10050103_10050104/colored_0/10050103_10050104_0037.png
+10040081_10040082/colored_0/10040081_10040082_0021.png
+10050105_10050106/colored_0/10050105_10050106_0032.png
+10050104_10050105/colored_0/10050104_10050105_0033.png
+10040082_10040083/colored_0/10040082_10040083_0000.png
+...
+```
 ## Experiment
 
 To do list:
