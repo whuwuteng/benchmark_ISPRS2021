@@ -65,7 +65,7 @@ Training data is on [GoogleDrive](https://drive.google.com/file/d/1VigRM7MzarWJQ
 
 Testing data is on [GoogleDrive](https://drive.google.com/file/d/15WFxVH9YJkP_ESqUW_QSm5uTc8MBHjwR/view?usp=sharing). There are *507* stereo pairs for the testing dataset. For the testing data, the ground truth disparity is not provided. 
 
-For deep learning method, a training and valuation list file is also provide, the ratio of training image is *80%*, and the ratio valuation image is *20%* of the training data. The relative directory is the current directory, and only the left image is listed, there are 468 in ***vaihingen_trainlist.txt***, and 117 in ***vaihingen_vallist.txt***, the order is after random, an example is shown:
+For deep learning method, a training and valuation list file is also provide, the ratio of training image is ***80%***, and the ratio valuation image is ***20%*** of the training data. The relative directory is the current directory, and only the left image is listed, there are **468** in ***vaihingen_trainlist.txt***, and **117** in ***vaihingen_vallist.txt***, the order is after random, an example is shown:
 
 ```
 10030060_10040082/colored_0/10030060_10040082_0005.png
@@ -76,7 +76,7 @@ For deep learning method, a training and valuation list file is also provide, th
 10040082_10040083/colored_0/10040082_10040083_0000.png
 ...
 ```
-In the testing data folder, all the file is listed in ***vaihingen_test.txt***, The relative directory is the current directory, and only the left image is listed, the total number is 507:
+In the testing data folder, all the file is listed in ***vaihingen_test.txt***, The relative directory is the current directory, and only the left image is listed, the total number is **507**:
 ```
 10030061_10030062/colored_0/10030061_10030062_0000.png
 10030061_10030062/colored_0/10030061_10030062_0001.png
