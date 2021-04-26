@@ -62,7 +62,7 @@ In order to know the origin data, the file name is named from the origin image, 
 
 ### Data download
 
-Training data is on [GoogleDrive](https://drive.google.com/file/d/1VigRM7MzarWJQSAtxvgSCZu3eMid893C/view?usp=sharing). There are *585* stereo pairs for the training dataset (1.8 Go). The folder structure is introduced above.
+Training data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *585* stereo pairs for the training dataset (1.8 Go). The folder structure is introduced above.
 
 
 Testing data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *507* stereo pairs for the testing dataset(1.5 Go). For the testing data, the ground truth disparity is not provided. 
