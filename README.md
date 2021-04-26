@@ -78,7 +78,7 @@ For deep learning method, a training and valuation list file is also provide, th
 ...
 ```
 
-In the training directory, the folder list ***train_folderlist.txt*** is also provided, it just let you know the stereo pair type of the image.
+In the training directory, the folder list ***train_folderlist.txt*** is also provided, it just let you know the stereo pair type of the image. For example, **10030060_10030061** is along flight strip, and **10030060_10040082** is across flight strip.
 
 ```
 10030060_10030061
