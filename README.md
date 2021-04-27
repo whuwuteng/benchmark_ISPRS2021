@@ -117,7 +117,12 @@ In the testing data folder, all the file is listed in ***vaihingen_test.txt***, 
 
 ### Experiment setup
 
-In the paper, because **HRS net** do not need valuation dataset, so all the training dataset is used for training in the experiment. 
+The disparity search range is an important parameter for stereo dense matching.
+Some methods do not need this parameter, i.e., *MICMAC* and *DeepPruner*. In *SGM(GPU)*, the range is set to 128 and is dictated by the implementation. For other methods, it is set to 192.
+
+For machine learning based methods, the training data and hyper-parameters impact significantly the results. For the Random Forest based method *CBMV*, 54 epipolar pairs are used for training. For deep learning based methods, all the training data is used. For the evaluation, all the testing data is used for all methods.
+
+We decided to use the default batch size proposed in the implementation: 12 for *PSM net*, 28 for *HRS net* and 16 for *DeepPruner*. For the fine-tuning experiments on Vaihingen dataset,  the number of epochs is set as following: 20 for *DeepFeature*, 500 for *PSM net*, 700 for *HRS net* and 900 for *DeepPruner*.
 
 ### Training Model
 
