@@ -65,7 +65,7 @@ In order to know the origin data, the file name is named from the origin image, 
 Training data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *585* stereo pairs for the training dataset (1.8 Go). The folder structure is introduced above.
 
 
-Testing data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *507* stereo pairs for the testing dataset(1.5 Go). For the testing data, the ground truth disparity is not provided. 
+Testing data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *507* stereo pairs for the testing dataset (1.5 Go). For the testing data, the ground truth disparity is not provided. 
 
 For deep learning method, a training and valuation list file is also provide, the ratio of training image is ***80%***, and the ratio valuation image is ***20%*** of the training data. The relative directory is the current directory, and only the left image is listed, there are **468** in ***vaihingen_trainlist.txt***, and **117** in ***vaihingen_vallist.txt***, the order is after random, an example is shown:
 
@@ -126,13 +126,36 @@ We decided to use the default batch size proposed in the implementation: 12 for 
 
 ### Training Model
 
+#### CBMV
 
+The [scikit-learn](https://scikit-learn.org/stable/install.html) version is important, the model is training on version 0.20.4, the model is on [GoogleDrive](https://drive.google.com/file/d/1sW3Ip22vYKvi0E03lNNFQc4ybtoUKfoj/view?usp=sharing). 
+
+#### DeepFeature
+
+DeepFeature method is based on Lua torch. The model is on [GoogleDrive](https://drive.google.com/file/d/1Pw_CyG5pmm8Vc0u55meyZ1REF9vSGNGJ/view?usp=sharing), the file should be unpacked.
+
+#### PSM net
+
+For PSM net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1RXYcpoBJimVUy7lxT1tNYWDh5IU_THPY/view?usp=sharing), the file can be directly load by the code.
+
+#### HRS net
+
+For HRS net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing),the file can be directly load by the code.
+
+#### DeepPruner
+
+For DeepPruner, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing), the file can be directly load by the code.
+
+### Evaluation result 
+
+The 2,3 and 5 pixel error is used, the result is also list here:
 
 To do list:
 
 - [x] Method introduction
-- [ ] Training Model
-- [ ] Evaluation result table
+- [x] Training Model
+- [ ] Evaluation result
+- [ ] Evaluation method(?)
 
 ## Acknowledge
 
