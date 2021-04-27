@@ -172,7 +172,7 @@ To do list:
 - [x] Method introduction
 - [x] Training Model
 - [x] Evaluation result
-- [ ] Evaluation method(?)
+- [ ] Evaluation method for other users(?)
 
 ## Acknowledge
 
