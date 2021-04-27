@@ -102,20 +102,43 @@ In the testing data folder, all the file is listed in ***vaihingen_test.txt***, 
 ```
 ## Experiment
 
+### Method
+
+|   Method    |       Brief introduction        |                             Code                             |
+| :---------: | :-----------------------------: | :----------------------------------------------------------: |
+|   MICMAC    |       NCC based SGM(CPU)        | [(Pierrot-Deseilligny, Paparoditis, 2006)](https://github.com/micmacIGN/micmac) |
+|  SGM (GPU)  |      census base SGM(GPU)       |             [(Hernandez-Juarez et al., 2016)]()              |
+|  GraphCuts  | plane constraint base Graphcuts | [(Taniai et al., 2017)](https://github.com/t-taniai/LocalExpStereo) |
+|    CBMV     |   random forest+SGM/Graphcuts   |   [(Batsos et al., 2018)](https://github.com/kbatsos/CBMV)   |
+| DeepFeature |           2D CNN+SGM            | [(Luo et al., 2016)](https://bitbucket.org/saakuraa/cvpr16_stereo_public/src/master/) |
+|   PSM net   |        end to end method        | [(Chang, Chen, 2018)](https://github.com/JiaRenChang/PSMNet) |
+|   HRS net   |        end to end method        | [(Yang et al., 2019a)](https://github.com/gengshan-y/high-res-stereo) |
+| DeepPruner  |        end to end method        | [(Duggal et al., 2019)](https://github.com/uber-research/DeepPruner) |
+
+### Experiment setup
+
 In the paper, because **HRS net** do not need valuation dataset, so all the training dataset is used for training in the experiment. 
+
+### Training Model
+
+
 
 To do list:
 
-- [ ] Method introduction
-- [ ] Result analysis
-- [ ] Evaluation introduction
+- [x] Method introduction
+- [ ] Training Model
 - [ ] Evaluation result table
 
-## Feed Back
+## Acknowledge
 
 ### Citation
 
 The dataset is introduced in the ISPRS 2021 congress paper, if you use this dataset, please cite our paper.
 
 If you think you have any problem, contact [Teng Wu]<whuwuteng@gmail.com>
+
+### Dataset
+
+The Vaihingen data set was provided by the German Society for Photogrammetry, Remote Sensing 
+and Geoinformation (DGPF) 
 
