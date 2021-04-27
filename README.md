@@ -136,15 +136,15 @@ DeepFeature method is based on Lua torch. The model is on [GoogleDrive](https://
 
 #### PSM net
 
-For PSM net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1RXYcpoBJimVUy7lxT1tNYWDh5IU_THPY/view?usp=sharing), the file can be directly load by the code.
+For PSM net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1RXYcpoBJimVUy7lxT1tNYWDh5IU_THPY/view?usp=sharing), the file can be directly loaded by the code.
 
 #### HRS net
 
-For HRS net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing),the file can be directly load by the code.
+For HRS net, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing),the file can be directly loaded by the code.
 
 #### DeepPruner
 
-For DeepPruner, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing), the file can be directly load by the code.
+For DeepPruner, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing), the file can be directly loaded by the code.
 
 ### Evaluation result 
 
