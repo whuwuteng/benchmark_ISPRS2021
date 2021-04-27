@@ -150,11 +150,28 @@ For DeepPruner, the code is base on Pytorch, the load method is same with the or
 
 The 2,3 and 5 pixel error is used, the result is also list here:
 
+|     Method      | 2-pixel error | 3-pixel error | 5-pixel error |
+| :-------------: | :-----------: | :-----------: | :-----------: |
+|     MICMAC      |    67.169     |    74.283     |    81.429     |
+|    SGM(GPU)     |    71.564     |    78.539     |    84.799     |
+|    GraphCuts    |    71.704     |    76.404     |    80.951     |
+|    CBMV(SGM)    |    74.941     |    80.540     |    85.342     |
+| CBMV(GraphCuts) |    76.387     |    82.229     |    87.227     |
+|   DeepFeature   |    78.265     |    83.982     |    88.878     |
+|     PSM net     |  **84.065**   |  **88.324**   |  **92.395**   |
+|     HRS net     |    79.135     |    85.243     |    91.238     |
+|   DeepPruner    |    83.568     |    87.893     |    92.223     |
+
+A figure shows from 0 to 10 pixel error is shown:
+| <img src="/figures/vaihingen_all.png" width="700" alt="Evaluation of pixel error on Vaihingen" /> |
+| :----------------------------------------------------------: |
+|           *Evaluation of pixel error on Vaihingen*           |
+
 To do list:
 
 - [x] Method introduction
 - [x] Training Model
-- [ ] Evaluation result
+- [x] Evaluation result
 - [ ] Evaluation method(?)
 
 ## Acknowledge
@@ -163,6 +180,19 @@ To do list:
 
 The Vaihingen data set was provided by the German Society for Photogrammetry, Remote Sensing 
 and Geoinformation (DGPF) 
+
+### References
+
+The methods in the experiment are listed here:
+
+1. Pierrot-Deseilligny, M., & Paparoditis, N., 2006. A multiresolution and optimization-based image matching approach: An application to surface reconstruction from SPOT5-HRS stereo imagery. *Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences*, *36*(1/W41), 1-5.
+2. Hernandez-Juarez, D., Chacón, A., Espinosa, A., Vázquez, D., Moure, J. C., & López, A. M., 2016. Embedded real-time stereo estimation via semi-global matching on the GPU. Procedia Computer Science, 80, 143-153.
+3. Taniai, T., Matsushita, Y., Sato, Y., Naemura, T., 2017. Continuous 3D label stereo matching using local expansion moves.IEEE transactions on pattern analysis and machine intelligence, 40(11), 2725–2739.
+4. Batsos, K., Cai, C., Mordohai, P., 2018. Cbmv: A coalescedbidirectional matching volume for disparity estimation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2060–2069.
+5. Luo, W., Schwing, A. G., Urtasun, R., 2016. Efficient deeplearning for stereo matching. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 5695–5703.
+6. Chang, J.-R., Chen, Y.-S., 2018. Pyramid stereo matching network. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 5410–5418.
+7. Yang, G., Manela, J., Happold, M., Ramanan, D., 2019. Hierarchical deep stereo matching on high-resolution images. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 5515–5524.
+8. Duggal, S., Wang, S., Ma, W.-C., Hu, R., Urtasun, R., 2019. Deeppruner: Learning efficient stereo matching via differentiable patchmatch. Proceedings of the IEEE International Conference on Computer Vision, 4384–4393.
 
 ### Citation
 
