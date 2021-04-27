@@ -150,19 +150,19 @@ For DeepPruner, the code is base on Pytorch, the load method is same with the or
 
 The 2,3 and 5 pixel error is used, the result is also list here:
 
-|     Method      | 2-pixel error | 3-pixel error | 5-pixel error |
-| :-------------: | :-----------: | :-----------: | :-----------: |
-|     MICMAC      |    67.169     |    74.283     |    81.429     |
-|    SGM(GPU)     |    71.564     |    78.539     |    84.799     |
-|    GraphCuts    |    71.704     |    76.404     |    80.951     |
-|    CBMV(SGM)    |    74.941     |    80.540     |    85.342     |
-| CBMV(GraphCuts) |    76.387     |    82.229     |    87.227     |
-|   DeepFeature   |    78.265     |    83.982     |    88.878     |
-|     PSM net     |  **84.065**   |  **88.324**   |  **92.395**   |
-|     HRS net     |    79.135     |    85.243     |    91.238     |
-|   DeepPruner    |    83.568     |    87.893     |    92.223     |
+|     Method      | 2-pixel error[%] | 3-pixel error[%] | 5-pixel error[%] |
+| :-------------: | :--------------: | :--------------: | :--------------: |
+|     MICMAC      |      67.169      |      74.283      |      81.429      |
+|    SGM(GPU)     |      71.564      |      78.539      |      84.799      |
+|    GraphCuts    |      71.704      |      76.404      |      80.951      |
+|    CBMV(SGM)    |      74.941      |      80.540      |      85.342      |
+| CBMV(GraphCuts) |      76.387      |      82.229      |      87.227      |
+|   DeepFeature   |      78.265      |      83.982      |      88.878      |
+|     PSM net     |    **84.065**    |    **88.324**    |    **92.395**    |
+|     HRS net     |      79.135      |      85.243      |      91.238      |
+|   DeepPruner    |      83.568      |      87.893      |      92.223      |
 
-A figure shows from 0 to 10 pixel error is shown:
+A figure shows from 0 to 10 pixel error:
 | <img src="/figures/vaihingen_all.png" width="700" alt="Evaluation of pixel error on Vaihingen" /> |
 | :----------------------------------------------------------: |
 |           *Evaluation of pixel error on Vaihingen*           |
