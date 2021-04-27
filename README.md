@@ -131,14 +131,14 @@ To do list:
 
 ## Acknowledge
 
+### Dataset
+
+The Vaihingen data set was provided by the German Society for Photogrammetry, Remote Sensing 
+and Geoinformation (DGPF) 
+
 ### Citation
 
 The dataset is introduced in the ISPRS 2021 congress paper, if you use this dataset, please cite our paper.
 
 If you think you have any problem, contact [Teng Wu]<whuwuteng@gmail.com>
-
-### Dataset
-
-The Vaihingen data set was provided by the German Society for Photogrammetry, Remote Sensing 
-and Geoinformation (DGPF) 
 
