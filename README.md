@@ -61,7 +61,7 @@ For the training and testing dataset, the image data is **8bit RGB** image, and 
 In order to know the origin data, the file name is named from the origin image, "pair1_pair2_index.png".  The image pair along the flight strip and across the fight strip are different, an example is shown here:
 
 
-| <img src="/figures/10030062_10030063.png" width="250"  alt="disparity hist" /> | <img src="/figures/10030062_10040084.png" width="250"  alt="disparity hist" /> |
+| <img src="/figures/10030062_10030063.png" width="500"  alt="disparity hist" /> | <img src="/figures/10030062_10040084.png" width="500"  alt="disparity hist" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |             *dispairity histogram(along-strip)*              |             *dispairity histogram(across-strip)*             |
 
