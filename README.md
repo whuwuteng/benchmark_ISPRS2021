@@ -70,7 +70,7 @@ In order to know the origin data, the file name is named from the origin image, 
 Training data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *585* stereo pairs for the training dataset (1.8 Go). The folder structure is introduced above.
 
 
-Testing data is on [GoogleDrive](https://drive.google.com/file/d/1tXQ8qB2bS7JZz4wKmEzu0Qb0apPjOAr-/view?usp=sharing). There are *507* stereo pairs for the testing dataset (1.5 Go). For the testing data, the ground truth disparity is not provided. 
+Testing data is on [GoogleDrive](https://drive.google.com/file/d/15WFxVH9YJkP_ESqUW_QSm5uTc8MBHjwR/view?usp=sharing). There are *507* stereo pairs for the testing dataset (1.5 Go). For the testing data, the ground truth disparity is not provided. 
 
 For deep learning method, a training and valuation list file is also provide, the ratio of training image is ***80%***, and the ratio valuation image is ***20%*** of the training data. The relative directory is the current directory, and only the left image is listed, there are **468** in ***vaihingen_trainlist.txt***, and **117** in ***vaihingen_vallist.txt***, the order is after random, an example is shown:
 
