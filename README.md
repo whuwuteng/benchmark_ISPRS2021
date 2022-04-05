@@ -50,7 +50,7 @@ The training and evluation dataset is also provided, the structure of the folder
         │       ├─10030062_10030063_0001.png
         │       └─ ...
         ├──10030062_10040084                    # pair 2
-        └── ...                                 # other folder
+        └── ...                           <img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2">      # other folder
 
 For the training and testing dataset, the image data is **8bit RGB** image, and disparity is **16bit unsigned short** format. In disparity image, the value is scaled by **256**. The image size is **1024x1024**.
 
@@ -149,7 +149,7 @@ For HRS net, the code is base on Pytorch, the load method is same with the origi
 
 #### DeepPruner
 
-For DeepPruner, the code is base on Pytorch, the load method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1_KG0_kWWdyL2vmYdgbiGc00mCjZbGaaV/view?usp=sharing), the file can be directly loaded by the code.
+For DeepPruner, the code is base on Pytorch, the load<img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2"> method is same with the origin code. The model is on [GoogleDrive](https://drive.google.com/file/d/1XbkAZWi4lnLX823FyiCoAJ5XnbatWASR/view?usp=sharing), the file can be directly loaded by the code.
 
 ### Evaluation result 
 
