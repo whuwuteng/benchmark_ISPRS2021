@@ -201,7 +201,22 @@ The methods in the experiment are listed here:
 
 ### Citation
 
-The dataset is introduced in the ISPRS 2021 congress paper, if you use this dataset, please cite our paper.
+The dataset is introduced in the ISPRS 2021 congress paper, if you use this dataset, please cite our paper:
+
+````
+```
+@Article{wu2021new,
+AUTHOR = {Wu, Teng and Vallet, Bruno and Pierrot-Deseilligny, Marc and Rupnik, Ewelina},
+TITLE = {A new stereo dense matching benchmark dataset for deep learning},
+JOURNAL = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+VOLUME = {XLIII-B2-2021},
+YEAR = {2021},
+PAGES = {405--412},
+URL = {https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/405/2021/},
+DOI = {10.5194/isprs-archives-XLIII-B2-2021-405-2021}
+}
+```
+````
 
 If you think you have any problem, contact [Teng Wu]<whuwuteng@gmail.com>
 
