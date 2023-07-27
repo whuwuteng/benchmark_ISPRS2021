@@ -1,6 +1,10 @@
 # Aerial Stereo Dense Matching Benchmark
 
-This is the Github repository for the stereo dense matching benchmark for [AI4GEO project](http://ai4geo.eu/index.php). The dataset is also introduced in ISPRS 2021 congress paper "A new stereo dense matching benchmark dataset for deep learning". For the new version dataset, you can find in the [new repository](https://github.com/whuwuteng/Aerial_Stereo_Dataset).
+This is the Github repository for the stereo dense matching benchmark for [AI4GEO project](http://ai4geo.eu/index.php). The dataset is also introduced in ISPRS 2021 congress paper "A new stereo dense matching benchmark dataset for deep learning". 
+
+## New verision dataset
+
+**For the new version dataset of ISPRS-Vaihingen, you can find in the [new repository](https://github.com/whuwuteng/Aerial_Stereo_Dataset).**
 
 ## Introduction
 For stereo dense matching, there are many famous benchmark dataset in Robust Vision, for example, [KITTI stereo](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) and [middlebury stereo](https://vision.middlebury.edu/stereo/).
