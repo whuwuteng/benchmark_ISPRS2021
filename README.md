@@ -21,6 +21,7 @@ This data set is from [ISPRS 3D reconstruction benchmark](https://www2.isprs.org
 
 The training and evluation dataset is also provided, the structure of the folder is :
 
+```
     .
     +
     ├── training                                # trainging 
@@ -54,7 +55,9 @@ The training and evluation dataset is also provided, the structure of the folder
         │       ├─10030062_10030063_0001.png
         │       └─ ...
         ├──10030062_10040084                    # pair 2
-        └── ...                           <img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2">      # other folder
+        └── ...                                 # other folder
+
+```
 
 For the training and testing dataset, the image data is **8bit RGB** image, and disparity is **16bit unsigned short** format. In disparity image, the value is scaled by **256**. The image size is **1024x1024**.
 
